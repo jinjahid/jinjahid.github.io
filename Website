@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jahid Ifran | Portfolio</title>
+    <style>
+        /* Minimalist & High-Contrast Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+        }
+
+        body {
+            background-color: #0b0b0b;
+            color: #f5f5f5;
+            line-height: 1.6;
+            padding: 0 2rem;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+
+        /* Navigation */
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 2rem 0;
+            border-bottom: 1px solid #222;
+        }
+
+        nav .logo {
+            font-size: 1.2rem;
+            font-weight: 700;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+        }
+
+        nav ul li {
+            margin-left: 2rem;
+        }
+
+        nav ul li a {
+            color: #999;
+            text-decoration: none;
+            font-size: 0.9rem;
+            transition: color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: #fff;
+        }
+
+        /* Hero Section */
+        header {
+            padding: 8rem 0 5rem 0;
+        }
+
+        header h1 {
+            font-size: 3.5rem;
+            font-weight: 400;
+            letter-spacing: -1px;
+            margin-bottom: 1.5rem;
+            color: #fff;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            color: #888;
+            max-width: 600px;
+        }
+
+        /* About & Origin Section */
+        .about-section {
+            padding: 5rem 0;
+            border-top: 1px solid #222;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+        }
+
+        .about-section h2 {
+            font-size: 1.8rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #fff;
+        }
+
+        .about-content p {
+            color: #aaa;
+            margin-bottom: 1.5rem;
+            font-size: 1.05rem;
+        }
+
+        /* Portfolio / Future Works Grid */
+        .portfolio-section {
+            padding: 5rem 0;
+            border-top: 1px solid #222;
+        }
+
+        .portfolio-section h2 {
+            font-size: 1.8rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 3rem;
+            color: #fff;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        .project-card {
+            background: #121212;
+            border: 1px solid #222;
+            padding: 2.5rem;
+            border-radius: 4px;
+            transition: transform 0.3s ease, border-color 0.3s ease;
+        }
+
+        .project-card:hover {
+            transform: translateY(-5px);
+            border-color: #444;
+        }
+
+        .project-card .tag {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: #666;
+            display: block;
+            margin-bottom: 1rem;
+        }
+
+        .project-card h3 {
+            font-size: 1.3rem;
+            margin-bottom: 1rem;
+            color: #fff;
+        }
+
+        .project-card p {
+            color: #777;
+            font-size: 0.95rem;
+        }
+
+        /* Footer */
+        footer {
+            padding: 4rem 0;
+            border-top: 1px solid #222;
+            text-align: center;
+            color: #444;
+            font-size: 0.85rem;
+            letter-spacing: 1px;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .about-section {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+            header h1 {
+                font-size: 2.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Navigation -->
+        <nav>
+            <div class="logo">MJI.NAHID</div>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#works">Works</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <!-- Hero Section -->
+        <header>
+            <h1>MD Jahid Ifran Nahid</h1>
+            <p>Aspiring architect and designer focused on structural forms, spatial dynamics, and visual storytelling.</p>
+        </header>
+
+        <!-- About Section -->
+        <section id="about" class="about-section">
+            <div>
+                <h2>Who I Am <br>& Where I'm From</h2>
+            </div>
+            <div class="about-content">
+                <p>I am a designer driven by structural precision and clean aesthetics. My work is heavily inspired by minimalist forms, high-contrast monochrome landscapes, and the fine balance between functionality and visual art.</p>
+                <p>Based in <strong>Bangladesh</strong>, a region rich in diverse landscapes and architectural evolution, I aim to merge traditional spatial understandings with sharp, contemporary digital drafting and modeling.</p>
+            </div>
+        </section>
+
+        <!-- Portfolio Section -->
+        <section id="works" class="portfolio-section">
+            <h2>Selected Works</h2>
+            <div class="grid">
+                
+                <!-- Placeholder Card 1 -->
+                <div class="project-card">
+                    <span class="tag">Architecture / AutoCAD</span>
+                    <h3>Spatial Design & Layouts</h3>
+                    <p>Future space for architectural blueprints, 2D/3D floor plans, and digital structural concepts.</p>
+                </div>
+
+                <!-- Placeholder Card 2 -->
+                <div class="project-card">
+                    <span class="tag">3D Modeling</span>
+                    <h3>Structural Concepts</h3>
+                    <p>Future showcase for detailed scale models, perspective renders, and environmental design projects.</p>
+                </div>
+
+                <!-- Placeholder Card 3 -->
+                <div class="project-card">
+                    <span class="tag">Photography</span>
+                    <h3>Monochrome & Landscapes</h3>
+                    <p>A curated look at high-contrast astrophotography, urban geometries, and natural environments.</p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer id="contact">
+            <p>&copy; 2026 MJI.NAHID. ALL RIGHTS RESERVED.</p>
+        </footer>
+    </div>
+
+</body>
+</html>
